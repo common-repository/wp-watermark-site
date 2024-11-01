@@ -1,0 +1,44 @@
+.form-table th {padding:20px 0 10px 0 !important;}
+.form-table td {padding:0 0 15px 0 !important;}
+
+#watermark-switcher {margin:20px 0;display:table;font-weight: bold;font-size: 1.2em;}
+#watermark-switcher-text {display:table-cell;vertical-align:middle;}
+#watermark-switcher-button {padding:0 0 0 15px;display:table-cell;vertical-align:middle;}
+
+.watermark-switcher-radio-text {display:inline-block; margin:0 30px 0 0;}
+
+.wp-watermark-site-position-table {white-space:nowrap;}
+.wp-watermark-site-position-table td {padding: 10px 25px 10px 0 !important;}
+
+input[type=radio].css-checkbox {position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;}
+
+input[type=radio].css-checkbox + label.css-label {width:40px; height:40px; margin:0 5px 0 0; background-color:#fff; border-radius:25px; border:2px solid #999; display:inline-block; line-height:50px; font-size:30px; vertical-align:middle; cursor:pointer;}
+
+input[type=radio].css-checkbox:checked + label.css-label {background-color:#c00;}
+input[type=radio].css-checkbox:checked + label.css-label.chkgreen {background-color:#0c0 !important;}
+
+label.css-label {-webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;}
+
+#watermark-form{display:none;}
+
+.submit {padding:1em 0 0 0;}
+input#submit {margin:25px 0 0 0;}
+
+#message {position: relative;display:inline-block;}
+#notsaved {background: #fff; padding: 10px; font-weight:bold; border-left: 5px solid red; color:red; display:none;}
+.fade {animation:fade 0.5s 1;
+    -webkit-animation:fade 0.5s 1;
+    animation-fill-mode: forwards;
+    animation-delay:4s;
+    -webkit-animation-delay:4s;
+    -webkit-animation-fill-mode: forwards;
+	}
+@keyframes fade{
+    from {opacity :1;}
+    to {opacity :0;}
+}
+
+@-webkit-keyframes fade{
+    from {opacity :1;}
+    to {opacity :0;}
+}
